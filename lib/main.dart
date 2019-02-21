@@ -6,18 +6,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text("Flutter Layout Practice"),
-        ),
-        body: Text(
+    return Container(
+      decoration: BoxDecoration(color: Colors.white),
+      child: Center(
+        child: Text(
           "Hello World!",
+          textDirection: TextDirection.ltr,
           style: TextStyle(
             fontSize: 12.0,
+            color: Colors.black
           ),
         ),
-      )
+      ),
     );
   }
 }
