@@ -7,15 +7,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Center(
-        child: Text(
-          "Hello World!",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 12.0,
+      home: Scaffold(
+        body: Center(
+          child: Text(
+            "Hello World!",
+            style: TextStyle(
+              fontSize: 12.0,
+            ),
           ),
         ),
-      ),
+      )
     );
   }
 }
