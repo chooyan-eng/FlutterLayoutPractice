@@ -11,12 +11,10 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Flutter Layout Practice"),
         ),
-        body: Center(
-          child: Text(
-            "Hello World!",
-            style: TextStyle(
-              fontSize: 12.0,
-            ),
+        body: Text(
+          "Hello World!",
+          style: TextStyle(
+            fontSize: 12.0,
           ),
         ),
       )
